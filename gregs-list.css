@@ -1,0 +1,68 @@
+nav {
+	background-color: grey;
+	position: fixed;
+	border: 1px solid black;
+	width: 100%;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+.title {
+	position: absolute;
+	left: 60px;
+}
+
+.right {
+	position: absolute;
+	right: -60px;
+	display: inline-block;
+}
+
+.search {
+	position: absolute;
+	top: -150px;
+	left: 150px;
+}
+
+.prev-next {
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 5px;
+	list-style: none;
+}
+
+.nav-list {
+	display: inline-block;
+	border-right: 1px solid grey;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.results {
+	list-style: none;
+	color: grey;
+}
+
+.list {
+	display: inline-block;
+}
+
+.date {
+	color: grey;
+	display: inline-block;
+}
+
+.title {
+	color: blue;
+	display: inline-block;
+}
+
+.location {
+	color: grey;
+	display: inline-block;
+}
