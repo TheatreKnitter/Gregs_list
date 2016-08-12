@@ -11,16 +11,17 @@
 <body>
 	<nav>
 		<ul>
-			<li class="title">Greg's List</li>
+			<li class="name">Greg's List</li>
 			<li class="right">post</li>
 			<li class="right">Account</li>
 		</ul>
 	</nav>
 
-	<form action="search.php">
-  		<input type="text" name="Search" placeholder="Search software jobs">
-  		<input type="icon" name=>
-  	</form> 	
+	<form class="search">
+          <input type="text" placeholder="Search software jobs" required>
+          <button type="submit" class="btn btn-success">
+    	<i class="fa fa-search" aria-hidden="true"></i></button>
+	</form>	
 
 	<ul class="prev-next">
 		<li class="nav-list">< prev</li>
@@ -31,21 +32,21 @@
 
 <p>
 	<ul class="results">
-		<li><i class="fa fa-star-o" aria-hidden="true"></i>
+		<li><i class="fa fa-star" aria-hidden="true"></i>
 			<ul class="list">
 				<li class="date">June 22</li>
 				<li class="title">Technical Project Manager</li>
 				<li class="location">Midtown East</li>
 			</ul>
 		</li>
-		<li><i class="fa fa-star-o" aria-hidden="true"></i>
+		<li><i class="fa fa-star" aria-hidden="true"></i>
 			<ul class="list">
 				<li class="date">June 21</li>
 				<li class="title">Frontend Developer</li>
 				<li class="location">Soho</li>
 			</ul>
 		</li>
-		<li><i class="fa fa-star-o" aria-hidden="true"></i>
+		<li><i class="fa fa-star" aria-hidden="true"></i>
 			<ul class="list">
 				<li class="date">June 20</li>
 				<li class="title">Senior Python Developer/ Cofounder</li>
@@ -55,5 +56,6 @@
 	</ul>
 
 </p>
+
 </body>
 </html>
