@@ -1,5 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	paddint:80px;
+}
+
 nav {
-	background-color: grey;
+	background-color: silver;
 	position: fixed;
 	border: 1px solid black;
 	width: 100%;
@@ -7,27 +16,36 @@ nav {
 	padding-left: 60px;
 }
 
-nav ul {
+.header {
 	display: inline-block;
 	list-style: none;
+	right: 60px
+	color:#663399;
 }
 
 .name {
 	position: absolute;
-	left: 60px;
+	left: 30px;
 }
 
 .right {
 	position: absolute;
-	float: left;
+	float: right;
 	display: inline-block;
+	color:purple;
+	
 }
 
 .search {
 	position: absolute;
 	top: 100px;
-	left: 50%;
+	left: 50px;
 }
+
+.search-field {
+	width: 400px;
+}
+
 
 .prev-next {
 	display: inline-block;
@@ -37,19 +55,19 @@ nav ul {
 	position: relative;
 	clear:both;
 	margin-top: 150px;
-	margin-left: 50%;
+	margin-left: 50px;
 }
 
 .nav-list {
 	display: inline-block;
-	border-right: 1px solid grey;
+	border-right: 1px solid silver;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 .results {
 	list-style: none;
-	color: grey;
+	color: silver;
 	position:relative;
 	padding-top: 50px;
 }
@@ -73,6 +91,6 @@ i:hover {
 }
 
 .location {
-	color: grey;
+	color: silver;
 	display: inline-block;
 }
